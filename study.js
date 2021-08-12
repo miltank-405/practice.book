@@ -9,3 +9,7 @@
 // console.log(52 / 2);
 // // 割り算のあまり
 // console.log(12 % 10);
+
+
+
+/* chapter02 */
