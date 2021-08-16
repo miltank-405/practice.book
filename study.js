@@ -42,4 +42,6 @@
 	// console.log(input - price);
 
 	// p55 文字列型-String
-	
+// let name = "りんごジュース";
+// let message = 'お買い上げありがとうございました';
+// console.log(name + message);
