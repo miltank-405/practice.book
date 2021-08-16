@@ -45,3 +45,11 @@
 // let name = "りんごジュース";
 // let message = 'お買い上げありがとうございました';
 // console.log(name + message);
+
+// p56 論理型-Boolean
+	// // お釣りがあれば真、なかったら儀
+	// let otsuri = true;
+	// // もしもお釣りがある場合はメッセージの出力
+	// if(otsuri) {
+	// 	console.log("お釣りがあります");
+	// }
