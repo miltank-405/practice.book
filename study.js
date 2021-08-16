@@ -64,9 +64,19 @@
 	// console.log(message1 + message2);
 
 // p60 算術演算子
-	// 四則計算(+, -, *, /, %)
-	console.log(10 + 11);
-	console.log(21 - 15);
-	console.log(10 * 2);
-	console.log(20 / 2);
-	console.log(53 % 10);
+	// // 四則計算(+, -, *, /, %)
+	// console.log(10 + 11);
+	// console.log(21 - 15);
+	// console.log(10 * 2);
+	// console.log(20 / 2);
+	// console.log(53 % 10);
+
+	// インクリメントとデクリメント
+	// 変数に代入した数値を1だけ増やすことを インクリメント => 変数名++
+	// let count = 1;
+	// count++;
+	// console.log(count);
+	// 1だけ減らすことをデクリメント => 変数名--
+	let count = 1;
+	count--;
+	console.log(count);
