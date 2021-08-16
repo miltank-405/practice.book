@@ -95,6 +95,14 @@
 
 	// 論理和(OR) -> ||
 	// 二つの条件のうち1つ以上が成立することをあらわす
-	let apple_zaiko = false;
-	let orange_zaiko = true;
-	console.log(apple_zaiko || orange_zaiko);
+	// let apple_zaiko = false;
+	// let orange_zaiko = true;
+	// console.log(apple_zaiko || orange_zaiko);
+
+// p64 代入演算子
+let input = 0;
+input = input + 100;
+// ▼短縮して書く
+let input = 0;
+input += 100;
+// 文字列の連結も複合代入演算子でOK
