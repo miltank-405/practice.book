@@ -77,6 +77,11 @@
 	// count++;
 	// console.log(count);
 	// 1だけ減らすことをデクリメント => 変数名--
-	let count = 1;
-	count--;
-	console.log(count);
+	// let count = 1;
+	// count--;
+	// console.log(count);
+
+	// インクリメントは 変数に入っている数値を一旦取り出して、1を足した計算結果を再び同じ変数に代入し直すこと。
+	// let count = 1;
+	// count = count + 1;
+	// 式を計算すること -> 式を評価する っていう
