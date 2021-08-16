@@ -89,6 +89,12 @@
 // p63 論理演算子
 	// 論理積(AND) -> &&
 	// 二つの条件が同時に成立することをあらわす
-	let apple_zaiko = true;
+	// let apple_zaiko = true;
+	// let orange_zaiko = true;
+	// console.log(apple_zaiko && orange_zaiko);
+
+	// 論理和(OR) -> ||
+	// 二つの条件のうち1つ以上が成立することをあらわす
+	let apple_zaiko = false;
 	let orange_zaiko = true;
-	console.log(apple_zaiko && orange_zaiko);
+	console.log(apple_zaiko || orange_zaiko);
