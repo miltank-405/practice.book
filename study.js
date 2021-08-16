@@ -100,9 +100,19 @@
 	// console.log(apple_zaiko || orange_zaiko);
 
 // p64 代入演算子
-let input = 0;
-input = input + 100;
-// ▼短縮して書く
-let input = 0;
-input += 100;
-// 文字列の連結も複合代入演算子でOK
+// let input = 0;
+// input = input + 100;
+// // ▼短縮して書く
+// let input = 0;
+// input += 100;
+// // 文字列の連結も複合代入演算子でOK
+
+// p65 比較演算子
+/* 
+	A == B  等価 AとBが等しければtrue, 違ったらfalse
+	A != B  不等価 AとBが等しくなかったらtrue, 違ったらfalse
+	A > B   より大きい AがBよりも大きかったらtrue, 違ったらfalse
+	A >= B  以上 AがB以上ならtrue, 違ったらfalse
+	A < B   より小さい AがBより小さかったらtrue, 違ったらfalse
+	A <= B  以下 AがB以下ならtrue, 違ったらfalse
+ */
