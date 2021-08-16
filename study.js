@@ -53,3 +53,12 @@
 	// if(otsuri) {
 	// 	console.log("お釣りがあります");
 	// }
+
+// p58 文字列演算子
+	// 文字列と文字列を繋げるときに使用。
+	// 使い方 => 文字列 + 文字列 (+の前後には半角スペースを)
+	console.log("お釣りは"+"50円です");
+	// 変数を使って全く同じことを書く
+	let message1 = "お釣りは";
+	let message2 = "50円です";
+	console.log(message1 + message2);
