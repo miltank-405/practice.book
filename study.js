@@ -120,7 +120,15 @@
 	// 配列の宣言 p74
 	// let 変数名 = [];
 	// let id = [1, 2, 5, 6];
-	let meibo = ["愛", "太郎", "剛", "花子"];
+	// let meibo = ["愛", "太郎", "剛", "花子"];
 	// let name = meibo[0];
-	meibo[0] = "龍馬";
+	// meibo[0] = "龍馬";
+	// console.log(meibo[0]);
+
+	// 変数から変数にデータを移すとどうなるか
+	let meibo = ["愛", "太郎", "剛", "花子"];
+	let name = meibo[0];
+	name = "坂本龍馬";
+	console.log(name);
 	console.log(meibo[0]);
+	// 配列から取り出したデータを格納した変数を書き換えても、元の配列は変わらない
