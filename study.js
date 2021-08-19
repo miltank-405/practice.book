@@ -126,9 +126,18 @@
 	// console.log(meibo[0]);
 
 	// 変数から変数にデータを移すとどうなるか
-	let meibo = ["愛", "太郎", "剛", "花子"];
-	let name = meibo[0];
-	name = "坂本龍馬";
-	console.log(name);
-	console.log(meibo[0]);
+	// let meibo = ["愛", "太郎", "剛", "花子"];
+	// let name = meibo[0];
+	// name = "坂本龍馬";
+	// console.log(name);
+	// console.log(meibo[0]);
 	// 配列から取り出したデータを格納した変数を書き換えても、元の配列は変わらない
+
+	// p82 連想配列 - 配列要素を入れる箱に名前付きの鍵(キー)をかけた形
+	// let 変数名 = {キー:値, キー:値, キー:値};
+	let meibo = {
+		1:"坂本龍馬",
+		2:"斎藤一",
+		5:"近藤勇"
+	}
+	console.log("2:" + meibo["2"]);
