@@ -116,3 +116,11 @@
 	A < B   より小さい AがBより小さかったらtrue, 違ったらfalse
 	A <= B  以下 AがB以下ならtrue, 違ったらfalse
  */
+
+	// 配列の宣言 p74
+	// let 変数名 = [];
+	// let id = [1, 2, 5, 6];
+	let meibo = ["愛", "太郎", "剛", "花子"];
+	// let name = meibo[0];
+	meibo[0] = "龍馬";
+	console.log(meibo[0]);
